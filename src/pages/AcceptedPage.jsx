@@ -25,7 +25,7 @@ export default function AcceptedPage() {
             <div className="bloom-heart" />
           </div>
           <h1 className="mt-6 text-3xl font-display text-rose-600 md:text-4xl">
-            {to} said YES to {from}! ??
+            {to} said YES to {from}! 💞
           </h1>
           <TypingMessage text="This is your cute little love story unfolding in sparkles." />
         </div>

@@ -31,7 +31,7 @@ export const THEMES = {
   }
 };
 
-export const EMOJIS = ['??', '??', '??', '??', '??', '??'];
+export const EMOJIS = ['💖', '🌹', '🍫', '💌', '✨', '🥰'];
 
 export const safeParam = (value, fallback) => {
   if (!value || typeof value !== 'string') return fallback;
@@ -47,7 +47,7 @@ export const getTheme = (themeKey = 'pink') => THEMES[themeKey] || THEMES.pink;
 export const getValentineParams = (searchParams) => {
   const from = safeParam(searchParams.get('from'), 'Someone');
   const to = safeParam(searchParams.get('to'), 'You');
-  const emoji = safeParam(searchParams.get('emoji'), '??');
+  const emoji = safeParam(searchParams.get('emoji'), '💖');
   const theme = safeParam(searchParams.get('theme'), 'pink');
   const img = safeParam(searchParams.get('img'), '');
   return { from, to, emoji, theme, img };

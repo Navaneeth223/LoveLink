@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const HEARTS = ['??', '??', '??', '??'];
+const HEARTS = ['💖', '💘', '💝', '💗'];
 
 export default function HeartsBurst({ show }) {
   if (!show) return null;

@@ -29,7 +29,7 @@ export default function FloatingHearts() {
             animationDuration: `${heart.duration}s`
           }}
         >
-          ??
+          💖
         </span>
       ))}
     </div>

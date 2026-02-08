@@ -8,7 +8,7 @@ export default function ShareButton({ url, label = 'Share this link' }) {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Valentine Surprise ??',
+          title: 'Valentine Surprise 💖',
           url
         });
         return;
@@ -30,7 +30,7 @@ export default function ShareButton({ url, label = 'Share this link' }) {
       >
         {label}
       </button>
-      <Toast message="Link copied ??" show={toast} />
+      <Toast message="Link copied 💖" show={toast} />
     </>
   );
 }

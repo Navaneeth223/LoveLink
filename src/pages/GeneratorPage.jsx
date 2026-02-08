@@ -7,7 +7,7 @@ import HeartEffect from '../components/HeartEffect.jsx';
 export default function GeneratorPage() {
   const [fromName, setFromName] = useState('');
   const [toName, setToName] = useState('');
-  const [emoji, setEmoji] = useState('??');
+  const [emoji, setEmoji] = useState('💖');
   const [themeKey, setThemeKey] = useState('pink');
   const [image, setImage] = useState('');
   const [imageId, setImageId] = useState('');
@@ -58,7 +58,7 @@ export default function GeneratorPage() {
   return (
     <div className="min-h-[100svh] bg-valentine-cream">
       <HeartEffect />
-      <Toast message="Link copied ??" show={toast} />
+      <Toast message="Link copied 💖" show={toast} />
 
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 pb-20 pt-8 md:flex-row md:items-start md:px-10">
         <div className="flex-1">

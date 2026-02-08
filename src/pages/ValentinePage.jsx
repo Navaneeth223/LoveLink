@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+﻿import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import HeartEffect from '../components/HeartEffect.jsx';
@@ -64,11 +64,11 @@ export default function ValentinePage() {
         <div className="rounded-3xl bg-white/15 p-8 backdrop-blur-md">
           <p className="text-sm uppercase tracking-[0.3em] text-white/70">Valentine Special</p>
           <h1 className="mt-4 text-3xl font-display md:text-4xl">Hey {to} {emoji}</h1>
-          <p className="mt-3 text-sm text-white/80">{from} has something to ask you�</p>
+          <p className="mt-3 text-sm text-white/80">{from} has something to ask you…</p>
         </div>
 
         <div className="rounded-[32px] bg-white/15 p-6 shadow-2xl backdrop-blur">
-          <h2 className="text-2xl font-display md:text-3xl">Will you be my Valentine? ??</h2>
+          <h2 className="text-2xl font-display md:text-3xl">Will you be my Valentine? 💘</h2>
           <p className="mt-2 text-sm text-white/80">Choose wisely, cutie.</p>
 
           <div
@@ -95,7 +95,7 @@ export default function ValentinePage() {
                 wiggle ? 'no-button-wiggle' : ''
               }`}
             >
-              NO ??
+              NO 💔
             </motion.button>
           </div>
         </div>
@@ -107,3 +107,4 @@ export default function ValentinePage() {
     </div>
   );
 }
+

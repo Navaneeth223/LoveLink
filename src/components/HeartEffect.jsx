@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-const HEARTS = ['??', '??', '??', '??', '??'];
+const HEARTS = ['💖', '💘', '💝', '💗', '💓'];
 
 export default function HeartEffect() {
   const [hearts, setHearts] = useState([]);
