@@ -135,7 +135,7 @@ Add an Open Graph image:
 - `public/og-image.png`
 
 **License**
-MIT
+MIT (see `LICENSE`)
 
 **Support**
 - Star the repo
